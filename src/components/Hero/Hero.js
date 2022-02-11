@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="content">
                 <div className="title">
                     <h1>TRAVEL TO EXPLORE</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi est ullam, laudantium blanditiis harum assumenda veritatis cupiditate inventore qui veniam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi est ullam, laudantium </p>
                 </div>
 
                 <div className="search">

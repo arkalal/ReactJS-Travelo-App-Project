@@ -63,3 +63,36 @@
     font-size: 1.1rem;
     color: #03045e;
 }
+
+.sectionHero .search .container input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    text-align: center;
+}
+
+.sectionHero .search .container input[type='date']{
+    padding-left: 3rem;
+}
+
+.sectionHero .search .container input::placeholder{
+    color: black;
+}
+
+.sectionHero .search button{
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #4361ee;
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.sectionHero .search button:hover{
+    background-color: #023e8a;
+}
