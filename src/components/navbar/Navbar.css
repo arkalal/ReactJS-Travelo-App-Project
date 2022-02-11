@@ -38,4 +38,23 @@ ul li a:hover{
 
 .activeA{
     color: black;
+    font-weight: 900;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: white;
+    background-color: #48cae4;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    transition: all .3s ease-in-out;
+}
+
+button:hover{
+    background-color: #023e8a;
 }
