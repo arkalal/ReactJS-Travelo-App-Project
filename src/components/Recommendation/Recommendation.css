@@ -1,3 +1,81 @@
-.active{
-    background-color: blue;
+.RecommendationSection{
+    padding: 2rem 0;
+}
+
+.RecommendationSection .title{
+    text-align: center;
+}
+
+.RecommendationSection .packages{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.RecommendationSection .packages ul{
+    display: flex;
+    list-style-type: none;
+    width: max-content;
+}
+
+.RecommendationSection .packages ul li{
+    padding: 1rem 2rem;
+    border-bottom: 0.2rem solid black;
+}
+
+.Recommendationactive{
+    border-bottom: 0.5rem solid #8338ec !important;
+}
+
+.RecommendationSection .destinations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.RecommendationSection .destinations .destination{
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
+    background-color: #8338ec14;
+    width: 350px;
+    height: 420px;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.RecommendationSection .destinations .destination:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.RecommendationSection .destinations .destination img{
+    width: 100%;
+}
+
+.RecommendationSection .destinations .destination .info .services img{
+    width: 2rem;
+    border-radius: 1rem;
+    background-color: #4d2ddb84;
+    padding: 0.2rem 0.4rem;
+}
+
+.RecommendationSection .destinations .destination .info .services{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.RecommendationSection .destinations .destination .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.RecommendationSection .destinations .destination .distance{
+    display: flex;
+    justify-content: space-between;
 }

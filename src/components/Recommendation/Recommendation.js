@@ -68,11 +68,40 @@ const Recommendation = () => {
                     {
                         packages.map((pkg, index) => {
                             return <>
-                                <li className={Active === index + 1 ? 'active' : ''} onClick={() => { setActive(index + 1) }}> {pkg} </li>
+                                <li className={Active === index + 1 ? 'Recommendationactive' : ''} onClick={() => { setActive(index + 1) }}> {pkg} </li>
                             </>
                         })
                     }
                 </ul>
+            </div>
+
+            <div className="destinations">
+                {
+                    data.map((DesInfo) => {
+                        return <>
+                            <div className="destination">
+                                <img src={DesInfo.image} alt="" />
+                                <h3> {DesInfo.title} </h3>
+                                <p> {DesInfo.subTitle} </p>
+
+                                <div className="info">
+                                    <div className="services">
+                                        <img src="/assets/info1.png" alt="" />
+                                        <img src="/assets/info2.png" alt="" />
+                                        <img src="/assets/info3.png" alt="" />
+                                    </div>
+
+                                    <h4> {DesInfo.cost} </h4>
+                                </div>
+
+                                <div className="distance">
+                                    <span>1000 Kms</span>
+                                    <span> {DesInfo.duration} </span>
+                                </div>
+                            </div>
+                        </>
+                    })
+                }
             </div>
         </div>
     )
