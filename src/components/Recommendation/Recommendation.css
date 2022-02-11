@@ -21,6 +21,7 @@
 .RecommendationSection .packages ul li{
     padding: 1rem 2rem;
     border-bottom: 0.2rem solid black;
+    cursor: pointer;
 }
 
 .Recommendationactive{
