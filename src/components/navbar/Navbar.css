@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.container{
+.navbar .brand .container{
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -15,33 +15,33 @@
     text-transform: uppercase;
 }
 
-.toggle{
+.navbar .brand .toggle{
     display: none;
 }
 
-ul{
+.navbar ul{
     display: flex;
     list-style-type: none;
     gap: 1rem;
 }
 
-ul li a{
+.navbar ul li a{
    text-decoration: none;
    color: #0077b6;
    font-size: 1.2rem;
    transition: all .5s ease-in-out;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
     color: black;
 }
 
-.activeA{
+.NavLiActiveA{
     color: black;
     font-weight: 900;
 }
 
-button{
+.navbar button{
     padding: 0.5rem 1rem;
     border: none;
     outline: none;
@@ -55,6 +55,6 @@ button{
     transition: all .3s ease-in-out;
 }
 
-button:hover{
+.navbar button:hover{
     background-color: #023e8a;
 }

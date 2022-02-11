@@ -15,7 +15,7 @@ const Navbar = () => {
 
             <ul>
                 <li>
-                    <a className='activeA' href="#Home">Home</a>
+                    <a className='NavLiActiveA' href="#Home">Home</a>
                 </li>
                 <li>
                     <a href="#Home">Services</a>
