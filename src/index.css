@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: 1rem 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}

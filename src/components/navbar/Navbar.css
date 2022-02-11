@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.toggle{
+    display: none;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+ul li a{
+   text-decoration: none;
+   color: #0077b6;
+   font-size: 1.2rem;
+   transition: all .5s ease-in-out;
+}
+
+ul li a:hover{
+    color: black;
+}
+
+.activeA{
+    color: black;
+}
