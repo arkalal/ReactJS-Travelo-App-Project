@@ -1,0 +1,21 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    height: 15rem;
+    width: 20rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.service:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.service .icon img{
+    height: 2.4rem;
+}
