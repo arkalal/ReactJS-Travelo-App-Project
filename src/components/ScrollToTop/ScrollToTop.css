@@ -1,0 +1,14 @@
+.scrollToTopBlock{
+    display: block;
+}
+
+.scrollToTopNone{
+    display: none;
+}
+
+.scrollToTop{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 10;
+}

@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './ScrollToTop.css'
 
 const ScrollToTop = () => {
+
+    const [Scroll, setScroll] = useState(false)
+
     return (
-        <div></div>
+        <div className={Scroll ? 'scrollToTopBlock scrollToTop' : 'scrollToTopNone scrollToTop'}>
+            <img src="/assets/logo.png" alt="" />
+        </div>
     )
 }
 
