@@ -80,3 +80,26 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 280px) and (max-width: 768px){
+    .RecommendationSection .packages ul li{
+        padding: 0 0.5rem;
+        font-size: 2vh;
+        padding-bottom: 1rem;
+    }
+
+    .Recommendationactive{
+        border-bottom-width: 0.3rem;
+    }
+
+    .RecommendationSection .destinations .destination{
+        height: 350px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 900px){
+     .RecommendationSection .destinations .destination{
+         width: 300px;
+         height: 400px;
+     }
+}

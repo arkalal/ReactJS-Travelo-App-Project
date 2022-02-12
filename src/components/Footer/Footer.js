@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footerContainer'>
             <span>Copyright &copy; 2021 Travelo. Developed By Arka Lal Chakravarty</span>
 
-            <ul>
+            <ul className='footerLinks'>
                 <li>
                     <a href="#Home">Home</a>
                 </li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </li>
             </ul>
 
-            <ul>
+            <ul className='footerSocialLinks'>
                 <li> <BsFacebook></BsFacebook> </li>
                 <li> <BsLinkedin></BsLinkedin> </li>
                 <li> <AiFillInstagram></AiFillInstagram> </li>

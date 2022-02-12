@@ -25,6 +25,7 @@
     justify-content: center;
     margin: 0 2rem;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .testimon{
@@ -43,4 +44,11 @@
 
 .testimonialDetails span{
     font-size: 0.9rem;
+}
+
+@media (min-width: 280px) and (max-width: 768px){
+    .testimonialInfo{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

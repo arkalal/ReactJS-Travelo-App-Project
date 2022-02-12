@@ -58,3 +58,20 @@
 .navbar button:hover{
     background-color: #023e8a;
 }
+
+@media (min-width: 280px) and (max-width: 1080px) {
+    .navbar .brand{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar .brand .toggle{
+        display: block;
+    }
+
+    .navbar button, .navbar ul{
+        display: none;
+    }
+}

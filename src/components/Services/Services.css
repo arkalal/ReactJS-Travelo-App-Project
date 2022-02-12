@@ -5,3 +5,16 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media (min-width: 280px) and (max-width: 720px){
+   .parentServiceSection{
+       flex-direction: column;
+   }
+}
+
+@media (min-width: 720px) and (max-width: 1080px){
+    .parentServiceSection{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

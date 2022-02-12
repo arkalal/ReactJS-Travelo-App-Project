@@ -31,3 +31,18 @@
 .footerContainer ul li svg:hover{
     color: #302ce9;
 }
+
+@media (min-width: 280px) and (max-width: 1024px){
+    .footerContainer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footerLinks{
+        flex-direction: column;
+    }
+
+    .footerSocialLinks{
+        flex-direction: row;
+    }
+}
