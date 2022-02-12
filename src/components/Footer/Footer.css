@@ -1,0 +1,33 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d0d8ff;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.footerContainer ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.footerContainer ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.footerContainer ul li a:hover{
+    color: #302ce9;
+}
+
+.footerContainer ul li svg{
+    font-size: 1.3rem;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.footerContainer ul li svg:hover{
+    color: #302ce9;
+}

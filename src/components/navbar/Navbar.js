@@ -18,13 +18,13 @@ const Navbar = () => {
                     <a className='NavLiActiveA' href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="#Home">Services</a>
+                    <a href="#Services">Services</a>
                 </li>
                 <li>
-                    <a href="#Home">Places</a>
+                    <a href="#Places">Places</a>
                 </li>
                 <li>
-                    <a href="#Home">Testimonials</a>
+                    <a href="#Testimonials">Testimonials</a>
                 </li>
             </ul>
 
