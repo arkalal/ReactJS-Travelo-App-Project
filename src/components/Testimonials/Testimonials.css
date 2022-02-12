@@ -1,0 +1,46 @@
+.testimonialSection{
+    margin: 5rem 0;
+}
+
+.testimonialInfo img{
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+.testimonialInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.testimonialTitle{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem;
+    gap: 2rem;
+}
+
+.testimon{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.testimon:hover{
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.testimonialDetails span{
+    font-size: 0.9rem;
+}
