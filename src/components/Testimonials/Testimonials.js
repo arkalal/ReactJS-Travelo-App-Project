@@ -28,8 +28,8 @@ const Testimonials = () => {
                         <img src="/assets/avatarImage.jpeg" alt="" />
 
                         <div className="testimonialDetails">
-                            <h4>Kishan Seth</h4>
-                            <span>CEO - Sashan Web Solutions</span>
+                            <h4>Rakesh Kumar</h4>
+                            <span>CEO - Blockchain Inc.</span>
                         </div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@ const Testimonials = () => {
                         <img src="/assets/avatarImage.jpeg" alt="" />
 
                         <div className="testimonialDetails">
-                            <h4>Kishan Seth</h4>
-                            <span>CEO - Sashan Web Solutions</span>
+                            <h4>Darshan Grover</h4>
+                            <span>Certified React Developer</span>
                         </div>
                     </div>
                 </div>
